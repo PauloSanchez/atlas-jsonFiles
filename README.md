@@ -10,4 +10,4 @@ This are the responses that the Atlas API gives if used the queries bellow:
    3- Get Process Object Information: (output: depends on the Id given, it can be any of the other files)\
       https://atlas.linkconsulting.com/rest/object/properties/list?filter=[where][object.id][eq][ `<IdOfComponentNeeded>` ]
 
-The order from the previous enumeration needs to be followed, since one query gives up the information needed to execute the next one.
+The order from the previous enumeration needs to be followed, since one query gives the information needed to execute the next one.
