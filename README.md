@@ -1,4 +1,4 @@
-# atlas-jsonFiles
+# Atlas Project - Json Files
 This are the responses that the Atlas API gives if used the queries bellow:
   
    1- Get Atlas Repository Information: (output: RepositoryInfo)
