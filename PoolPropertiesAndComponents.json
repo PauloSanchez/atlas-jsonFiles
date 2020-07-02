@@ -1,0 +1,158 @@
+[
+    {
+        "pk": {
+            "configContainerId": 370407,
+            "objectId": 454280
+        },
+        "configContainer": {
+            "aclObjectType": "Repository",
+            "id": 370407,
+            "name": "MScPauloAlves",
+            "label": "MScPauloAlves",
+            "description": "Atlas Framework",
+            "owner": {
+                "authNodeType": "User",
+                "id": 4,
+                "name": "admin",
+                "username": "admin",
+                "userRealName": "Admin",
+                "email": "admin@atlas.linkconsulting.com"
+            },
+            "workerUrl": "http://localhost:8081/MScPauloAlves/",
+            "configurations": {
+                "projectReferences": {
+                    "dataTypeName": "",
+                    "isRelatedByProperty": false,
+                    "creates": {
+                        "property": "",
+                        "relation": ""
+                    },
+                    "deletes": {
+                        "property": "",
+                        "relation": ""
+                    }
+                },
+                "blueprintConfigurations": {
+                    "color": {
+                        "alive": "#4FDD4F",
+                        "transition": "#F9D360",
+                        "dead": "#FF3F3F"
+                    },
+                    "font": {
+                        "size": 15
+                    }
+                },
+                "dashboardConfigurations": {
+                    "configurations": "repository - Dashboard Configuration"
+                }
+            }
+        },
+        "object": {
+            "aclObjectType": "Object",
+            "id": 454280,
+            "name": "Seller Organization",
+            "label": "Seller Organization",
+            "owner": {
+                "authNodeType": "User",
+                "id": 6923,
+                "name": "paulo.alves.master",
+                "username": "paulo.alves.master",
+                "userRealName": "Paulo Alves",
+                "email": "paulo.sanchez.lemos.alves@tecnico.ulisboa.pt"
+            },
+            "objectClass": {
+                "id": 395926,
+                "name": "Pool MscPauloAlves",
+                "label": "Pool MscPauloAlves",
+                "owner": {
+                    "authNodeType": "User",
+                    "id": 6923,
+                    "name": "paulo.alves.master",
+                    "username": "paulo.alves.master",
+                    "userRealName": "Paulo Alves",
+                    "email": "paulo.sanchez.lemos.alves@tecnico.ulisboa.pt"
+                },
+                "repository": {
+                    "aclObjectType": "Repository",
+                    "id": 370407,
+                    "name": "MScPauloAlves",
+                    "label": "MScPauloAlves",
+                    "description": "Atlas Framework",
+                    "owner": {
+                        "authNodeType": "User",
+                        "id": 4,
+                        "name": "admin",
+                        "username": "admin",
+                        "userRealName": "Admin",
+                        "email": "admin@atlas.linkconsulting.com"
+                    },
+                    "workerUrl": "http://localhost:8081/MScPauloAlves/",
+                    "configurations": {
+                        "projectReferences": {
+                            "dataTypeName": "",
+                            "isRelatedByProperty": false,
+                            "creates": {
+                                "property": "",
+                                "relation": ""
+                            },
+                            "deletes": {
+                                "property": "",
+                                "relation": ""
+                            }
+                        },
+                        "blueprintConfigurations": {
+                            "color": {
+                                "alive": "#4FDD4F",
+                                "transition": "#F9D360",
+                                "dead": "#FF3F3F"
+                            },
+                            "font": {
+                                "size": 15
+                            }
+                        },
+                        "dashboardConfigurations": {
+                            "configurations": "repository - Dashboard Configuration"
+                        }
+                    }
+                },
+                "icon": "default.png",
+                "metaTypeClass": "Class"
+            },
+            "className": "Pool MscPauloAlves"
+        },
+        "properties": [
+            {
+                "name": "Name",
+                "value": "Seller Organization"
+            },
+            {
+                "name": "Data Store",
+                "value": [
+                    {
+                        "name": "Orders DB",
+                        "className": "Artifact",
+                        "label": "Orders DB",
+                        "id": 454538
+                    }
+                ]
+            },
+            {
+                "name": "Lane (with Access Control Model)",
+                "value": [
+                    {
+                        "name": "Warehouse&Distribution",
+                        "className": "Lane (with AccessControlModel)",
+                        "label": "Warehouse&Distribution",
+                        "id": 454494
+                    },
+                    {
+                        "name": "Sales",
+                        "className": "Lane (with AccessControlModel)",
+                        "label": "Sales",
+                        "id": 454282
+                    }
+                ]
+            }
+        ]
+    }
+]

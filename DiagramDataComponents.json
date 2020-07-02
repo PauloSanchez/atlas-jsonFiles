@@ -1,0 +1,265 @@
+[
+    {
+        "pk": {
+            "configContainerId": 370407,
+            "objectId": 454278
+        },
+        "configContainer": {
+            "aclObjectType": "Repository",
+            "id": 370407,
+            "name": "MScPauloAlves",
+            "label": "MScPauloAlves",
+            "description": "Atlas Framework",
+            "owner": {
+                "authNodeType": "User",
+                "id": 4,
+                "name": "admin",
+                "username": "admin",
+                "userRealName": "Admin",
+                "email": "admin@atlas.linkconsulting.com"
+            },
+            "workerUrl": "http://localhost:8081/MScPauloAlves/",
+            "configurations": {
+                "projectReferences": {
+                    "dataTypeName": "",
+                    "isRelatedByProperty": false,
+                    "creates": {
+                        "property": "",
+                        "relation": ""
+                    },
+                    "deletes": {
+                        "property": "",
+                        "relation": ""
+                    }
+                },
+                "blueprintConfigurations": {
+                    "color": {
+                        "alive": "#4FDD4F",
+                        "transition": "#F9D360",
+                        "dead": "#FF3F3F"
+                    },
+                    "font": {
+                        "size": 15
+                    }
+                },
+                "dashboardConfigurations": {
+                    "configurations": "repository - Dashboard Configuration"
+                }
+            }
+        },
+        "object": {
+            "aclObjectType": "Object",
+            "id": 454278,
+            "name": "Order Fulfillment",
+            "label": "Order Fulfillment",
+            "owner": {
+                "authNodeType": "User",
+                "id": 6923,
+                "name": "paulo.alves.master",
+                "username": "paulo.alves.master",
+                "userRealName": "Paulo Alves",
+                "email": "paulo.sanchez.lemos.alves@tecnico.ulisboa.pt"
+            },
+            "objectClass": {
+                "id": 371648,
+                "name": "Diagram Data",
+                "label": "Diagram Data",
+                "owner": {
+                    "authNodeType": "User",
+                    "id": 4,
+                    "name": "admin",
+                    "username": "admin",
+                    "userRealName": "Admin",
+                    "email": "admin@atlas.linkconsulting.com"
+                },
+                "repository": {
+                    "aclObjectType": "Repository",
+                    "id": 370407,
+                    "name": "MScPauloAlves",
+                    "label": "MScPauloAlves",
+                    "description": "Atlas Framework",
+                    "owner": {
+                        "authNodeType": "User",
+                        "id": 4,
+                        "name": "admin",
+                        "username": "admin",
+                        "userRealName": "Admin",
+                        "email": "admin@atlas.linkconsulting.com"
+                    },
+                    "workerUrl": "http://localhost:8081/MScPauloAlves/",
+                    "configurations": {
+                        "projectReferences": {
+                            "dataTypeName": "",
+                            "isRelatedByProperty": false,
+                            "creates": {
+                                "property": "",
+                                "relation": ""
+                            },
+                            "deletes": {
+                                "property": "",
+                                "relation": ""
+                            }
+                        },
+                        "blueprintConfigurations": {
+                            "color": {
+                                "alive": "#4FDD4F",
+                                "transition": "#F9D360",
+                                "dead": "#FF3F3F"
+                            },
+                            "font": {
+                                "size": 15
+                            }
+                        },
+                        "dashboardConfigurations": {
+                            "configurations": "repository - Dashboard Configuration"
+                        }
+                    }
+                },
+                "domain": "Business",
+                "category": "[2,6]Repository Configuration",
+                "icon": "process-03.png",
+                "metaTypeClass": "Class",
+                "propertyTemplates": [
+                    {
+                        "lifecycle": [],
+                        "name": "BPMN Element",
+                        "properties": [
+                            {
+                                "name": "Name",
+                                "label": "",
+                                "category": "",
+                                "type": "Text"
+                            },
+                            {
+                                "name": "BPMN_Data",
+                                "label": "Data",
+                                "category": "Internal Configurations",
+                                "type": "Text"
+                            },
+                            {
+                                "name": "BPMN_Objects",
+                                "label": "Objects",
+                                "category": "Internal Configurations",
+                                "type": "Reference"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "className": "Diagram Data"
+        },
+        "properties": [
+            {
+                "name": "BPMN_Data",
+                "value": "{\\"02-07-2020\\":{\\"xml\\":\\"<?xml version=\\\\\\"1.0\\\\\\" encoding=\\\\\\"UTF-8\\\\\\"?>\\\\n<bpmn:definitions xmlns:xsi=\\\\\\"http://www.w3.org/2001/XMLSchema-instance\\\\\\" xmlns:bpmn=\\\\\\"http://www.omg.org/spec/BPMN/20100524/MODEL\\\\\\" xmlns:bpmndi=\\\\\\"http://www.omg.org/spec/BPMN/20100524/DI\\\\\\" xmlns:dc=\\\\\\"http://www.omg.org/spec/DD/20100524/DC\\\\\\" xmlns:di=\\\\\\"http://www.omg.org/spec/DD/20100524/DI\\\\\\" id=\\\\\\"Definitions_1\\\\\\" targetNamespace=\\\\\\"http://bpmn.io/schema/bpmn\\\\\\"><bpmn:collaboration id=\\\\\\"Collaboration_1xg1h3g\\\\\\"><bpmn:participant id=\\\\\\"Participant_01gvrne\\\\\\" name=\\\\\\"Seller Organization\\\\\\" processRef=\\\\\\"Process_1\\\\\\" /></bpmn:collaboration><bpmn:process id=\\\\\\"Process_1\\\\\\" isExecutable=\\\\\\"false\\\\\\"><bpmn:laneSet id=\\\\\\"LaneSet_1xdardn\\\\\\"><bpmn:lane id=\\\\\\"Lane_0t1cxju\\\\\\" name=\\\\\\"Warehouse&#38;Distribution\\\\\\"><bpmn:flowNodeRef>Activity_0kkcf8z</bpmn:flowNodeRef><bpmn:flowNodeRef>Activity_15b02a3</bpmn:flowNodeRef><bpmn:flowNodeRef>Activity_1ey5e4u</bpmn:flowNodeRef><bpmn:flowNodeRef>Gateway_1e533yq</bpmn:flowNodeRef><bpmn:flowNodeRef>StartEvent_1</bpmn:flowNodeRef><bpmn:flowNodeRef>Activity_1r779sf</bpmn:flowNodeRef><bpmn:flowNodeRef>Activity_0wiwuhu</bpmn:flowNodeRef><bpmn:flowNodeRef>Activity_1yyrdto</bpmn:flowNodeRef><bpmn:flowNodeRef>Activity_05mu201</bpmn:flowNodeRef><bpmn:childLaneSet id=\\\\\\"LaneSet_0qnk06k\\\\\\"><bpmn:lane id=\\\\\\"Lane_1gr3xvp\\\\\\" name=\\\\\\"ERPSystem\\\\\\"><bpmn:flowNodeRef>Activity_1ey5e4u</bpmn:flowNodeRef><bpmn:flowNodeRef>Gateway_1e533yq</bpmn:flowNodeRef><bpmn:flowNodeRef>StartEvent_1</bpmn:flowNodeRef><bpmn:flowNodeRef>Activity_1r779sf</bpmn:flowNodeRef></bpmn:lane><bpmn:lane id=\\\\\\"Lane_1e24jn3\\\\\\" name=\\\\\\"Warehouse Worker\\\\\\"><bpmn:flowNodeRef>Activity_0kkcf8z</bpmn:flowNodeRef><bpmn:flowNodeRef>Activity_15b02a3</bpmn:flowNodeRef><bpmn:flowNodeRef>Activity_0wiwuhu</bpmn:flowNodeRef><bpmn:flowNodeRef>Activity_1yyrdto</bpmn:flowNodeRef><bpmn:flowNodeRef>Activity_05mu201</bpmn:flowNodeRef></bpmn:lane></bpmn:childLaneSet></bpmn:lane><bpmn:lane id=\\\\\\"Lane_1rq9wkt\\\\\\" name=\\\\\\"Sales\\\\\\"><bpmn:flowNodeRef>Gateway_10zhre1</bpmn:flowNodeRef><bpmn:flowNodeRef>Activity_09nfo9a</bpmn:flowNodeRef><bpmn:flowNodeRef>Gateway_0ann55l</bpmn:flowNodeRef><bpmn:flowNodeRef>Gateway_12rm8l5</bpmn:flowNodeRef><bpmn:flowNodeRef>Activity_12zz63z</bpmn:flowNodeRef><bpmn:flowNodeRef>Event_0d7jt1n</bpmn:flowNodeRef><bpmn:flowNodeRef>Activity_06k3tqi</bpmn:flowNodeRef><bpmn:flowNodeRef>Activity_1bm05rs</bpmn:flowNodeRef></bpmn:lane></bpmn:laneSet><bpmn:task id=\\\\\\"Activity_0kkcf8z\\\\\\" name=\\\\\\"Request Raw Materials from Supplier\\\\\\"><bpmn:incoming>Flow_0yrpahz</bpmn:incoming><bpmn:outgoing>Flow_0hxctb5</bpmn:outgoing></bpmn:task><bpmn:task id=\\\\\\"Activity_15b02a3\\\\\\" name=\\\\\\"Retrieve Product from Warehouse\\\\\\"><bpmn:incoming>Flow_1xswfzg</bpmn:incoming><bpmn:outgoing>Flow_0enm4cr</bpmn:outgoing></bpmn:task><bpmn:task id=\\\\\\"Activity_1ey5e4u\\\\\\" name=\\\\\\"Check Raw Materials Availability\\\\\\"><bpmn:incoming>Flow_0a30fmi</bpmn:incoming><bpmn:outgoing>Flow_0yrpahz</bpmn:outgoing></bpmn:task><bpmn:exclusiveGateway id=\\\\\\"Gateway_1e533yq\\\\\\"><bpmn:incoming>Flow_0pegaiw</bpmn:incoming><bpmn:outgoing>Flow_0a30fmi</bpmn:outgoing><bpmn:outgoing>Flow_1xswfzg</bpmn:outgoing></bpmn:exclusiveGateway><bpmn:startEvent id=\\\\\\"StartEvent_1\\\\\\"><bpmn:outgoing>Flow_071y8vx</bpmn:outgoing></bpmn:startEvent><bpmn:task id=\\\\\\"Activity_1r779sf\\\\\\" name=\\\\\\"Check Stock Availability\\\\\\"><bpmn:incoming>Flow_071y8vx</bpmn:incoming><bpmn:outgoing>Flow_0pegaiw</bpmn:outgoing></bpmn:task><bpmn:sequenceFlow id=\\\\\\"Flow_071y8vx\\\\\\" sourceRef=\\\\\\"StartEvent_1\\\\\\" targetRef=\\\\\\"Activity_1r779sf\\\\\\" /><bpmn:sequenceFlow id=\\\\\\"Flow_0pegaiw\\\\\\" sourceRef=\\\\\\"Activity_1r779sf\\\\\\" targetRef=\\\\\\"Gateway_1e533yq\\\\\\" /><bpmn:sequenceFlow id=\\\\\\"Flow_0a30fmi\\\\\\" name=\\\\\\"not in stock\\\\\\" sourceRef=\\\\\\"Gateway_1e533yq\\\\\\" targetRef=\\\\\\"Activity_1ey5e4u\\\\\\" /><bpmn:sequenceFlow id=\\\\\\"Flow_1xswfzg\\\\\\" name=\\\\\\"in stock\\\\\\" sourceRef=\\\\\\"Gateway_1e533yq\\\\\\" targetRef=\\\\\\"Activity_15b02a3\\\\\\" /><bpmn:sequenceFlow id=\\\\\\"Flow_0hxctb5\\\\\\" sourceRef=\\\\\\"Activity_0kkcf8z\\\\\\" targetRef=\\\\\\"Activity_0wiwuhu\\\\\\" /><bpmn:sequenceFlow id=\\\\\\"Flow_1m107ey\\\\\\" sourceRef=\\\\\\"Activity_0wiwuhu\\\\\\" targetRef=\\\\\\"Gateway_10zhre1\\\\\\" /><bpmn:sequenceFlow id=\\\\\\"Flow_0enm4cr\\\\\\" sourceRef=\\\\\\"Activity_15b02a3\\\\\\" targetRef=\\\\\\"Gateway_10zhre1\\\\\\" /><bpmn:sequenceFlow id=\\\\\\"Flow_1gam3bq\\\\\\" sourceRef=\\\\\\"Gateway_10zhre1\\\\\\" targetRef=\\\\\\"Activity_09nfo9a\\\\\\" /><bpmn:sequenceFlow id=\\\\\\"Flow_1bm6vmx\\\\\\" sourceRef=\\\\\\"Activity_09nfo9a\\\\\\" targetRef=\\\\\\"Gateway_0ann55l\\\\\\" /><bpmn:sequenceFlow id=\\\\\\"Flow_0uvj8tu\\\\\\" sourceRef=\\\\\\"Gateway_0ann55l\\\\\\" targetRef=\\\\\\"Activity_06k3tqi\\\\\\" /><bpmn:sequenceFlow id=\\\\\\"Flow_0twmkfg\\\\\\" sourceRef=\\\\\\"Gateway_0ann55l\\\\\\" targetRef=\\\\\\"Activity_05mu201\\\\\\" /><bpmn:sequenceFlow id=\\\\\\"Flow_0j9c3mo\\\\\\" sourceRef=\\\\\\"Activity_06k3tqi\\\\\\" targetRef=\\\\\\"Activity_1bm05rs\\\\\\" /><bpmn:sequenceFlow id=\\\\\\"Flow_0ckkti8\\\\\\" sourceRef=\\\\\\"Activity_05mu201\\\\\\" targetRef=\\\\\\"Activity_1yyrdto\\\\\\" /><bpmn:sequenceFlow id=\\\\\\"Flow_023dbg5\\\\\\" sourceRef=\\\\\\"Activity_1bm05rs\\\\\\" targetRef=\\\\\\"Gateway_12rm8l5\\\\\\" /><bpmn:sequenceFlow id=\\\\\\"Flow_1qvfbc9\\\\\\" sourceRef=\\\\\\"Activity_1yyrdto\\\\\\" targetRef=\\\\\\"Gateway_12rm8l5\\\\\\" /><bpmn:sequenceFlow id=\\\\\\"Flow_1dlj13a\\\\\\" sourceRef=\\\\\\"Activity_12zz63z\\\\\\" targetRef=\\\\\\"Event_0d7jt1n\\\\\\" /><bpmn:sequenceFlow id=\\\\\\"Flow_0g2fjsy\\\\\\" sourceRef=\\\\\\"Gateway_12rm8l5\\\\\\" targetRef=\\\\\\"Activity_12zz63z\\\\\\" /><bpmn:sequenceFlow id=\\\\\\"Flow_0yrpahz\\\\\\" sourceRef=\\\\\\"Activity_1ey5e4u\\\\\\" targetRef=\\\\\\"Activity_0kkcf8z\\\\\\" /><bpmn:task id=\\\\\\"Activity_0wiwuhu\\\\\\" name=\\\\\\"Manufacture Product\\\\\\"><bpmn:incoming>Flow_0hxctb5</bpmn:incoming><bpmn:outgoing>Flow_1m107ey</bpmn:outgoing></bpmn:task><bpmn:exclusiveGateway id=\\\\\\"Gateway_10zhre1\\\\\\"><bpmn:incoming>Flow_1m107ey</bpmn:incoming><bpmn:incoming>Flow_0enm4cr</bpmn:incoming><bpmn:outgoing>Flow_1gam3bq</bpmn:outgoing></bpmn:exclusiveGateway><bpmn:task id=\\\\\\"Activity_09nfo9a\\\\\\" name=\\\\\\"Confirm Order\\\\\\"><bpmn:incoming>Flow_1gam3bq</bpmn:incoming><bpmn:outgoing>Flow_1bm6vmx</bpmn:outgoing></bpmn:task><bpmn:parallelGateway id=\\\\\\"Gateway_0ann55l\\\\\\"><bpmn:incoming>Flow_1bm6vmx</bpmn:incoming><bpmn:outgoing>Flow_0uvj8tu</bpmn:outgoing><bpmn:outgoing>Flow_0twmkfg</bpmn:outgoing></bpmn:parallelGateway><bpmn:task id=\\\\\\"Activity_1yyrdto\\\\\\" name=\\\\\\"Ship Product\\\\\\"><bpmn:incoming>Flow_0ckkti8</bpmn:incoming><bpmn:outgoing>Flow_1qvfbc9</bpmn:outgoing></bpmn:task><bpmn:parallelGateway id=\\\\\\"Gateway_12rm8l5\\\\\\"><bpmn:incoming>Flow_023dbg5</bpmn:incoming><bpmn:incoming>Flow_1qvfbc9</bpmn:incoming><bpmn:outgoing>Flow_0g2fjsy</bpmn:outgoing></bpmn:parallelGateway><bpmn:task id=\\\\\\"Activity_12zz63z\\\\\\" name=\\\\\\"Archive Order\\\\\\"><bpmn:incoming>Flow_0g2fjsy</bpmn:incoming><bpmn:outgoing>Flow_1dlj13a</bpmn:outgoing><bpmn:dataOutputAssociation id=\\\\\\"DataOutputAssociation_14vt9fk\\\\\\"><bpmn:targetRef>DataStoreReference_0837603</bpmn:targetRef></bpmn:dataOutputAssociation></bpmn:task><bpmn:dataStoreReference id=\\\\\\"DataStoreReference_0837603\\\\\\" name=\\\\\\"Orders DB\\\\\\" /><bpmn:endEvent id=\\\\\\"Event_0d7jt1n\\\\\\"><bpmn:incoming>Flow_1dlj13a</bpmn:incoming></bpmn:endEvent><bpmn:task id=\\\\\\"Activity_06k3tqi\\\\\\" name=\\\\\\"Emit Invoice\\\\\\"><bpmn:incoming>Flow_0uvj8tu</bpmn:incoming><bpmn:outgoing>Flow_0j9c3mo</bpmn:outgoing></bpmn:task><bpmn:task id=\\\\\\"Activity_1bm05rs\\\\\\" name=\\\\\\"Receive Payment\\\\\\"><bpmn:incoming>Flow_0j9c3mo</bpmn:incoming><bpmn:outgoing>Flow_023dbg5</bpmn:outgoing></bpmn:task><bpmn:task id=\\\\\\"Activity_05mu201\\\\\\" name=\\\\\\"Get Shipping Address\\\\\\"><bpmn:incoming>Flow_0twmkfg</bpmn:incoming><bpmn:outgoing>Flow_0ckkti8</bpmn:outgoing></bpmn:task></bpmn:process><bpmndi:BPMNDiagram id=\\\\\\"BPMNDiagram_1\\\\\\"><bpmndi:BPMNPlane id=\\\\\\"BPMNPlane_1\\\\\\" bpmnElement=\\\\\\"Collaboration_1xg1h3g\\\\\\"><bpmndi:BPMNShape id=\\\\\\"Participant_01gvrne_di\\\\\\" bpmnElement=\\\\\\"Participant_01gvrne\\\\\\" isHorizontal=\\\\\\"true\\\\\\"><dc:Bounds x=\\\\\\"123\\\\\\" y=\\\\\\"82\\\\\\" width=\\\\\\"2007\\\\\\" height=\\\\\\"678\\\\\\" /></bpmndi:BPMNShape><bpmndi:BPMNShape id=\\\\\\"Lane_1rq9wkt_di\\\\\\" bpmnElement=\\\\\\"Lane_1rq9wkt\\\\\\" isHorizontal=\\\\\\"true\\\\\\"><dc:Bounds x=\\\\\\"153\\\\\\" y=\\\\\\"480\\\\\\" width=\\\\\\"1977\\\\\\" height=\\\\\\"280\\\\\\" /></bpmndi:BPMNShape><bpmndi:BPMNShape id=\\\\\\"Lane_0t1cxju_di\\\\\\" bpmnElement=\\\\\\"Lane_0t1cxju\\\\\\" isHorizontal=\\\\\\"true\\\\\\"><dc:Bounds x=\\\\\\"153\\\\\\" y=\\\\\\"82\\\\\\" width=\\\\\\"1977\\\\\\" height=\\\\\\"398\\\\\\" /></bpmndi:BPMNShape><bpmndi:BPMNShape id=\\\\\\"Lane_1e24jn3_di\\\\\\" bpmnElement=\\\\\\"Lane_1e24jn3\\\\\\" isHorizontal=\\\\\\"true\\\\\\"><dc:Bounds x=\\\\\\"183\\\\\\" y=\\\\\\"234\\\\\\" width=\\\\\\"1947\\\\\\" height=\\\\\\"246\\\\\\" /></bpmndi:BPMNShape><bpmndi:BPMNShape id=\\\\\\"Lane_1gr3xvp_di\\\\\\" bpmnElement=\\\\\\"Lane_1gr3xvp\\\\\\" isHorizontal=\\\\\\"true\\\\\\"><dc:Bounds x=\\\\\\"183\\\\\\" y=\\\\\\"82\\\\\\" width=\\\\\\"1947\\\\\\" height=\\\\\\"152\\\\\\" /></bpmndi:BPMNShape><bpmndi:BPMNEdge id=\\\\\\"Flow_0yrpahz_di\\\\\\" bpmnElement=\\\\\\"Flow_0yrpahz\\\\\\"><di:waypoint x=\\\\\\"710\\\\\\" y=\\\\\\"150\\\\\\" /><di:waypoint x=\\\\\\"740\\\\\\" y=\\\\\\"150\\\\\\" /><di:waypoint x=\\\\\\"740\\\\\\" y=\\\\\\"360\\\\\\" /><di:waypoint x=\\\\\\"770\\\\\\" y=\\\\\\"360\\\\\\" /></bpmndi:BPMNEdge><bpmndi:BPMNEdge id=\\\\\\"Flow_0g2fjsy_di\\\\\\" bpmnElement=\\\\\\"Flow_0g2fjsy\\\\\\"><di:waypoint x=\\\\\\"1865\\\\\\" y=\\\\\\"580\\\\\\" /><di:waypoint x=\\\\\\"1920\\\\\\" y=\\\\\\"580\\\\\\" /></bpmndi:BPMNEdge><bpmndi:BPMNEdge id=\\\\\\"Flow_1dlj13a_di\\\\\\" bpmnElement=\\\\\\"Flow_1dlj13a\\\\\\"><di:waypoint x=\\\\\\"2020\\\\\\" y=\\\\\\"580\\\\\\" /><di:waypoint x=\\\\\\"2072\\\\\\" y=\\\\\\"580\\\\\\" /></bpmndi:BPMNEdge><bpmndi:BPMNEdge id=\\\\\\"Flow_1qvfbc9_di\\\\\\" bpmnElement=\\\\\\"Flow_1qvfbc9\\\\\\"><di:waypoint x=\\\\\\"1720\\\\\\" y=\\\\\\"360\\\\\\" /><di:waypoint x=\\\\\\"1840\\\\\\" y=\\\\\\"360\\\\\\" /><di:waypoint x=\\\\\\"1840\\\\\\" y=\\\\\\"555\\\\\\" /></bpmndi:BPMNEdge><bpmndi:BPMNEdge id=\\\\\\"Flow_023dbg5_di\\\\\\" bpmnElement=\\\\\\"Flow_023dbg5\\\\\\"><di:waypoint x=\\\\\\"1740\\\\\\" y=\\\\\\"580\\\\\\" /><di:waypoint x=\\\\\\"1815\\\\\\" y=\\\\\\"580\\\\\\" /></bpmndi:BPMNEdge><bpmndi:BPMNEdge id=\\\\\\"Flow_0ckkti8_di\\\\\\" bpmnElement=\\\\\\"Flow_0ckkti8\\\\\\"><di:waypoint x=\\\\\\"1570\\\\\\" y=\\\\\\"360\\\\\\" /><di:waypoint x=\\\\\\"1620\\\\\\" y=\\\\\\"360\\\\\\" /></bpmndi:BPMNEdge><bpmndi:BPMNEdge id=\\\\\\"Flow_0j9c3mo_di\\\\\\" bpmnElement=\\\\\\"Flow_0j9c3mo\\\\\\"><di:waypoint x=\\\\\\"1570\\\\\\" y=\\\\\\"580\\\\\\" /><di:waypoint x=\\\\\\"1640\\\\\\" y=\\\\\\"580\\\\\\" /></bpmndi:BPMNEdge><bpmndi:BPMNEdge id=\\\\\\"Flow_0twmkfg_di\\\\\\" bpmnElement=\\\\\\"Flow_0twmkfg\\\\\\"><di:waypoint x=\\\\\\"1390\\\\\\" y=\\\\\\"555\\\\\\" /><di:waypoint x=\\\\\\"1390\\\\\\" y=\\\\\\"360\\\\\\" /><di:waypoint x=\\\\\\"1470\\\\\\" y=\\\\\\"360\\\\\\" /></bpmndi:BPMNEdge><bpmndi:BPMNEdge id=\\\\\\"Flow_0uvj8tu_di\\\\\\" bpmnElement=\\\\\\"Flow_0uvj8tu\\\\\\"><di:waypoint x=\\\\\\"1415\\\\\\" y=\\\\\\"580\\\\\\" /><di:waypoint x=\\\\\\"1470\\\\\\" y=\\\\\\"580\\\\\\" /></bpmndi:BPMNEdge><bpmndi:BPMNEdge id=\\\\\\"Flow_1bm6vmx_di\\\\\\" bpmnElement=\\\\\\"Flow_1bm6vmx\\\\\\"><di:waypoint x=\\\\\\"1270\\\\\\" y=\\\\\\"580\\\\\\" /><di:waypoint x=\\\\\\"1365\\\\\\" y=\\\\\\"580\\\\\\" /></bpmndi:BPMNEdge><bpmndi:BPMNEdge id=\\\\\\"Flow_1gam3bq_di\\\\\\" bpmnElement=\\\\\\"Flow_1gam3bq\\\\\\"><di:waypoint x=\\\\\\"1055\\\\\\" y=\\\\\\"580\\\\\\" /><di:waypoint x=\\\\\\"1170\\\\\\" y=\\\\\\"580\\\\\\" /></bpmndi:BPMNEdge><bpmndi:BPMNEdge id=\\\\\\"Flow_0enm4cr_di\\\\\\" bpmnElement=\\\\\\"Flow_0enm4cr\\\\\\"><di:waypoint x=\\\\\\"520\\\\\\" y=\\\\\\"400\\\\\\" /><di:waypoint x=\\\\\\"520\\\\\\" y=\\\\\\"580\\\\\\" /><di:waypoint x=\\\\\\"1005\\\\\\" y=\\\\\\"580\\\\\\" /></bpmndi:BPMNEdge><bpmndi:BPMNEdge id=\\\\\\"Flow_1m107ey_di\\\\\\" bpmnElement=\\\\\\"Flow_1m107ey\\\\\\"><di:waypoint x=\\\\\\"1030\\\\\\" y=\\\\\\"400\\\\\\" /><di:waypoint x=\\\\\\"1030\\\\\\" y=\\\\\\"555\\\\\\" /></bpmndi:BPMNEdge><bpmndi:BPMNEdge id=\\\\\\"Flow_0hxctb5_di\\\\\\" bpmnElement=\\\\\\"Flow_0hxctb5\\\\\\"><di:waypoint x=\\\\\\"870\\\\\\" y=\\\\\\"360\\\\\\" /><di:waypoint x=\\\\\\"980\\\\\\" y=\\\\\\"360\\\\\\" /></bpmndi:BPMNEdge><bpmndi:BPMNEdge id=\\\\\\"Flow_1xswfzg_di\\\\\\" bpmnElement=\\\\\\"Flow_1xswfzg\\\\\\"><di:waypoint x=\\\\\\"520\\\\\\" y=\\\\\\"175\\\\\\" /><di:waypoint x=\\\\\\"520\\\\\\" y=\\\\\\"320\\\\\\" /><bpmndi:BPMNLabel><dc:Bounds x=\\\\\\"530\\\\\\" y=\\\\\\"245\\\\\\" width=\\\\\\"39\\\\\\" height=\\\\\\"14\\\\\\" /></bpmndi:BPMNLabel></bpmndi:BPMNEdge><bpmndi:BPMNEdge id=\\\\\\"Flow_0a30fmi_di\\\\\\" bpmnElement=\\\\\\"Flow_0a30fmi\\\\\\"><di:waypoint x=\\\\\\"545\\\\\\" y=\\\\\\"150\\\\\\" /><di:waypoint x=\\\\\\"610\\\\\\" y=\\\\\\"150\\\\\\" /><bpmndi:BPMNLabel><dc:Bounds x=\\\\\\"549\\\\\\" y=\\\\\\"132\\\\\\" width=\\\\\\"58\\\\\\" height=\\\\\\"14\\\\\\" /></bpmndi:BPMNLabel></bpmndi:BPMNEdge><bpmndi:BPMNEdge id=\\\\\\"Flow_0pegaiw_di\\\\\\" bpmnElement=\\\\\\"Flow_0pegaiw\\\\\\"><di:waypoint x=\\\\\\"440\\\\\\" y=\\\\\\"150\\\\\\" /><di:waypoint x=\\\\\\"495\\\\\\" y=\\\\\\"150\\\\\\" /></bpmndi:BPMNEdge><bpmndi:BPMNEdge id=\\\\\\"Flow_071y8vx_di\\\\\\" bpmnElement=\\\\\\"Flow_071y8vx\\\\\\"><di:waypoint x=\\\\\\"278\\\\\\" y=\\\\\\"150\\\\\\" /><di:waypoint x=\\\\\\"340\\\\\\" y=\\\\\\"150\\\\\\" /></bpmndi:BPMNEdge><bpmndi:BPMNShape id=\\\\\\"Activity_0kkcf8z_di\\\\\\" bpmnElement=\\\\\\"Activity_0kkcf8z\\\\\\"><dc:Bounds x=\\\\\\"770\\\\\\" y=\\\\\\"320\\\\\\" width=\\\\\\"100\\\\\\" height=\\\\\\"80\\\\\\" /></bpmndi:BPMNShape><bpmndi:BPMNShape id=\\\\\\"Activity_15b02a3_di\\\\\\" bpmnElement=\\\\\\"Activity_15b02a3\\\\\\"><dc:Bounds x=\\\\\\"470\\\\\\" y=\\\\\\"320\\\\\\" width=\\\\\\"100\\\\\\" height=\\\\\\"80\\\\\\" /></bpmndi:BPMNShape><bpmndi:BPMNShape id=\\\\\\"Activity_1ey5e4u_di\\\\\\" bpmnElement=\\\\\\"Activity_1ey5e4u\\\\\\"><dc:Bounds x=\\\\\\"610\\\\\\" y=\\\\\\"110\\\\\\" width=\\\\\\"100\\\\\\" height=\\\\\\"80\\\\\\" /></bpmndi:BPMNShape><bpmndi:BPMNShape id=\\\\\\"Gateway_1e533yq_di\\\\\\" bpmnElement=\\\\\\"Gateway_1e533yq\\\\\\" isMarkerVisible=\\\\\\"true\\\\\\"><dc:Bounds x=\\\\\\"495\\\\\\" y=\\\\\\"125\\\\\\" width=\\\\\\"50\\\\\\" height=\\\\\\"50\\\\\\" /></bpmndi:BPMNShape><bpmndi:BPMNShape id=\\\\\\"_BPMNShape_StartEvent_2\\\\\\" bpmnElement=\\\\\\"StartEvent_1\\\\\\"><dc:Bounds x=\\\\\\"242\\\\\\" y=\\\\\\"132\\\\\\" width=\\\\\\"36\\\\\\" height=\\\\\\"36\\\\\\" /></bpmndi:BPMNShape><bpmndi:BPMNShape id=\\\\\\"Activity_1r779sf_di\\\\\\" bpmnElement=\\\\\\"Activity_1r779sf\\\\\\"><dc:Bounds x=\\\\\\"340\\\\\\" y=\\\\\\"110\\\\\\" width=\\\\\\"100\\\\\\" height=\\\\\\"80\\\\\\" /></bpmndi:BPMNShape><bpmndi:BPMNShape id=\\\\\\"Activity_0wiwuhu_di\\\\\\" bpmnElement=\\\\\\"Activity_0wiwuhu\\\\\\"><dc:Bounds x=\\\\\\"980\\\\\\" y=\\\\\\"320\\\\\\" width=\\\\\\"100\\\\\\" height=\\\\\\"80\\\\\\" /></bpmndi:BPMNShape><bpmndi:BPMNShape id=\\\\\\"Gateway_10zhre1_di\\\\\\" bpmnElement=\\\\\\"Gateway_10zhre1\\\\\\" isMarkerVisible=\\\\\\"true\\\\\\"><dc:Bounds x=\\\\\\"1005\\\\\\" y=\\\\\\"555\\\\\\" width=\\\\\\"50\\\\\\" height=\\\\\\"50\\\\\\" /></bpmndi:BPMNShape><bpmndi:BPMNShape id=\\\\\\"Activity_09nfo9a_di\\\\\\" bpmnElement=\\\\\\"Activity_09nfo9a\\\\\\"><dc:Bounds x=\\\\\\"1170\\\\\\" y=\\\\\\"540\\\\\\" width=\\\\\\"100\\\\\\" height=\\\\\\"80\\\\\\" /></bpmndi:BPMNShape><bpmndi:BPMNShape id=\\\\\\"Gateway_001cj8z_di\\\\\\" bpmnElement=\\\\\\"Gateway_0ann55l\\\\\\"><dc:Bounds x=\\\\\\"1365\\\\\\" y=\\\\\\"555\\\\\\" width=\\\\\\"50\\\\\\" height=\\\\\\"50\\\\\\" /></bpmndi:BPMNShape><bpmndi:BPMNShape id=\\\\\\"Activity_1yyrdto_di\\\\\\" bpmnElement=\\\\\\"Activity_1yyrdto\\\\\\"><dc:Bounds x=\\\\\\"1620\\\\\\" y=\\\\\\"320\\\\\\" width=\\\\\\"100\\\\\\" height=\\\\\\"80\\\\\\" /></bpmndi:BPMNShape><bpmndi:BPMNShape id=\\\\\\"Gateway_1g44dbv_di\\\\\\" bpmnElement=\\\\\\"Gateway_12rm8l5\\\\\\"><dc:Bounds x=\\\\\\"1815\\\\\\" y=\\\\\\"555\\\\\\" width=\\\\\\"50\\\\\\" height=\\\\\\"50\\\\\\" /></bpmndi:BPMNShape><bpmndi:BPMNShape id=\\\\\\"Activity_12zz63z_di\\\\\\" bpmnElement=\\\\\\"Activity_12zz63z\\\\\\"><dc:Bounds x=\\\\\\"1920\\\\\\" y=\\\\\\"540\\\\\\" width=\\\\\\"100\\\\\\" height=\\\\\\"80\\\\\\" /></bpmndi:BPMNShape><bpmndi:BPMNShape id=\\\\\\"DataStoreReference_0837603_di\\\\\\" bpmnElement=\\\\\\"DataStoreReference_0837603\\\\\\"><dc:Bounds x=\\\\\\"1945\\\\\\" y=\\\\\\"685\\\\\\" width=\\\\\\"50\\\\\\" height=\\\\\\"50\\\\\\" /><bpmndi:BPMNLabel><dc:Bounds x=\\\\\\"1945\\\\\\" y=\\\\\\"742\\\\\\" width=\\\\\\"51\\\\\\" height=\\\\\\"14\\\\\\" /></bpmndi:BPMNLabel></bpmndi:BPMNShape><bpmndi:BPMNShape id=\\\\\\"Event_0d7jt1n_di\\\\\\" bpmnElement=\\\\\\"Event_0d7jt1n\\\\\\"><dc:Bounds x=\\\\\\"2072\\\\\\" y=\\\\\\"562\\\\\\" width=\\\\\\"36\\\\\\" height=\\\\\\"36\\\\\\" /></bpmndi:BPMNShape><bpmndi:BPMNShape id=\\\\\\"Activity_06k3tqi_di\\\\\\" bpmnElement=\\\\\\"Activity_06k3tqi\\\\\\"><dc:Bounds x=\\\\\\"1470\\\\\\" y=\\\\\\"540\\\\\\" width=\\\\\\"100\\\\\\" height=\\\\\\"80\\\\\\" /></bpmndi:BPMNShape><bpmndi:BPMNShape id=\\\\\\"Activity_1bm05rs_di\\\\\\" bpmnElement=\\\\\\"Activity_1bm05rs\\\\\\"><dc:Bounds x=\\\\\\"1640\\\\\\" y=\\\\\\"540\\\\\\" width=\\\\\\"100\\\\\\" height=\\\\\\"80\\\\\\" /></bpmndi:BPMNShape><bpmndi:BPMNShape id=\\\\\\"Activity_05mu201_di\\\\\\" bpmnElement=\\\\\\"Activity_05mu201\\\\\\"><dc:Bounds x=\\\\\\"1470\\\\\\" y=\\\\\\"320\\\\\\" width=\\\\\\"100\\\\\\" height=\\\\\\"80\\\\\\" /></bpmndi:BPMNShape><bpmndi:BPMNEdge id=\\\\\\"DataOutputAssociation_14vt9fk_di\\\\\\" bpmnElement=\\\\\\"DataOutputAssociation_14vt9fk\\\\\\"><di:waypoint x=\\\\\\"1970\\\\\\" y=\\\\\\"620\\\\\\" /><di:waypoint x=\\\\\\"1970\\\\\\" y=\\\\\\"685\\\\\\" /></bpmndi:BPMNEdge></bpmndi:BPMNPlane></bpmndi:BPMNDiagram></bpmn:definitions>\\",\\"objects\\":[\\"Pool MscPauloAlves»Seller Organization\\",\\"BPMN Element with B.Functions MscPauloAlves»Request Raw Materials from Supplier\\",\\"BPMN Element with B.Functions MscPauloAlves»Retrieve Product from Warehouse\\",\\"BPMN Element with B.Functions MscPauloAlves»Check Raw Materials Availability\\",\\"BPMN Element with B.Functions MscPauloAlves»Check Stock Availability\\",\\"BPMN Element with B.Functions MscPauloAlves»Manufacture Product\\",\\"BPMN Element with B.Functions MscPauloAlves»Confirm Order\\",\\"BPMN Element with B.Functions MscPauloAlves»Ship Product\\",\\"BPMN Element with B.Functions MscPauloAlves»Archive Order\\",\\"Artifact»Orders DB\\",\\"BPMN Element with B.Functions MscPauloAlves»Emit Invoice\\",\\"BPMN Element with B.Functions MscPauloAlves»Receive Payment\\",\\"BPMN Element with B.Functions MscPauloAlves»Get Shipping Address\\",\\"Lane (with AccessControlModel)»Warehouse&Distribution\\",\\"Lane (with AccessControlModel)»Sales\\",\\"Lane (with AccessControlModel)»ERPSystem\\",\\"Lane (with AccessControlModel)»Warehouse Worker\\"],\\"relatedObjects\\":{}}}"
+            },
+            {
+                "name": "BPMN_Objects",
+                "value": [
+                    {
+                        "name": "Order Fulfillment»Lane (with AccessControlModel)»Sales",
+                        "className": "Diagram Data",
+                        "label": "Sales",
+                        "id": 454493
+                    },
+                    {
+                        "name": "Order Fulfillment»Lane (with AccessControlModel)»Warehouse&Distribution",
+                        "className": "Diagram Data",
+                        "label": "Warehouse&Distribution",
+                        "id": 454495
+                    },
+                    {
+                        "name": "Order Fulfillment»Lane (with AccessControlModel)»ERPSystem",
+                        "className": "Diagram Data",
+                        "label": "ERPSystem",
+                        "id": 454497
+                    },
+                    {
+                        "name": "Order Fulfillment»BPMN Element with B.Functions MscPauloAlves»Check Stock Availability",
+                        "className": "Diagram Data",
+                        "label": "Check Stock Availability",
+                        "id": 454499
+                    },
+                    {
+                        "name": "Order Fulfillment»BPMN Element with B.Functions MscPauloAlves»Check Raw Materials Availability",
+                        "className": "Diagram Data",
+                        "label": "Check Raw Materials Availability",
+                        "id": 454501
+                    },
+                    {
+                        "name": "Order Fulfillment»BPMN Element with B.Functions MscPauloAlves»Retrieve Product from Warehouse",
+                        "className": "Diagram Data",
+                        "label": "Retrieve Product from Warehouse",
+                        "id": 454503
+                    },
+                    {
+                        "name": "Order Fulfillment»BPMN Element with B.Functions MscPauloAlves»Request Raw Materials from Supplier",
+                        "className": "Diagram Data",
+                        "label": "Request Raw Materials from Supplier",
+                        "id": 454505
+                    },
+                    {
+                        "name": "Order Fulfillment»BPMN Element with B.Functions MscPauloAlves»Manufacture Product",
+                        "className": "Diagram Data",
+                        "label": "Manufacture Product",
+                        "id": 454509
+                    },
+                    {
+                        "name": "Order Fulfillment»BPMN Element with B.Functions MscPauloAlves»Confirm Order",
+                        "className": "Diagram Data",
+                        "label": "Confirm Order",
+                        "id": 454511
+                    },
+                    {
+                        "name": "Order Fulfillment»BPMN Element with B.Functions MscPauloAlves»Get Shipping Address",
+                        "className": "Diagram Data",
+                        "label": "Get Shipping Address",
+                        "id": 454513
+                    },
+                    {
+                        "name": "Order Fulfillment»BPMN Element with B.Functions MscPauloAlves»Ship Product",
+                        "className": "Diagram Data",
+                        "label": "Ship Product",
+                        "id": 454515
+                    },
+                    {
+                        "name": "Order Fulfillment»BPMN Element with B.Functions MscPauloAlves»Emit Invoice",
+                        "className": "Diagram Data",
+                        "label": "Emit Invoice",
+                        "id": 454517
+                    },
+                    {
+                        "name": "Order Fulfillment»BPMN Element with B.Functions MscPauloAlves»Receive Payment",
+                        "className": "Diagram Data",
+                        "label": "Receive Payment",
+                        "id": 454519
+                    },
+                    {
+                        "name": "Order Fulfillment»BPMN Element with B.Functions MscPauloAlves»Archive Order",
+                        "className": "Diagram Data",
+                        "label": "Archive Order",
+                        "id": 454521
+                    },
+                    {
+                        "name": "Order Fulfillment»Artifact»Orders DB",
+                        "className": "Diagram Data",
+                        "label": "Orders DB",
+                        "id": 454553
+                    },
+                    {
+                        "name": "Order Fulfillment»Lane (with AccessControlModel)»Warehouse Worker",
+                        "className": "Diagram Data",
+                        "label": "Warehouse Worker",
+                        "id": 454555
+                    },
+                    {
+                        "name": "Order Fulfillment»Pool MscPauloAlves»Seller Organization",
+                        "className": "Diagram Data",
+                        "label": "Seller Organization",
+                        "id": 454559
+                    }
+                ]
+            }
+        ]
+    }
+]

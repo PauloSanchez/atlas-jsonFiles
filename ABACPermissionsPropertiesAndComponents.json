@@ -1,0 +1,188 @@
+[
+    {
+        "pk": {
+            "configContainerId": 370407,
+            "objectId": 454525
+        },
+        "configContainer": {
+            "aclObjectType": "Repository",
+            "id": 370407,
+            "name": "MScPauloAlves",
+            "label": "MScPauloAlves",
+            "description": "Atlas Framework",
+            "owner": {
+                "authNodeType": "User",
+                "id": 4,
+                "name": "admin",
+                "username": "admin",
+                "userRealName": "Admin",
+                "email": "admin@atlas.linkconsulting.com"
+            },
+            "workerUrl": "http://localhost:8081/MScPauloAlves/",
+            "configurations": {
+                "projectReferences": {
+                    "dataTypeName": "",
+                    "isRelatedByProperty": false,
+                    "creates": {
+                        "property": "",
+                        "relation": ""
+                    },
+                    "deletes": {
+                        "property": "",
+                        "relation": ""
+                    }
+                },
+                "blueprintConfigurations": {
+                    "color": {
+                        "alive": "#4FDD4F",
+                        "transition": "#F9D360",
+                        "dead": "#FF3F3F"
+                    },
+                    "font": {
+                        "size": 15
+                    }
+                },
+                "dashboardConfigurations": {
+                    "configurations": "repository - Dashboard Configuration"
+                }
+            }
+        },
+        "object": {
+            "aclObjectType": "Object",
+            "id": 454525,
+            "name": "PermissionsSalesABAC",
+            "label": "PermissionsSalesABAC",
+            "owner": {
+                "authNodeType": "User",
+                "id": 6923,
+                "name": "paulo.alves.master",
+                "username": "paulo.alves.master",
+                "userRealName": "Paulo Alves",
+                "email": "paulo.sanchez.lemos.alves@tecnico.ulisboa.pt"
+            },
+            "objectClass": {
+                "id": 402450,
+                "name": "PermissionABAC",
+                "label": "PermissionABAC",
+                "owner": {
+                    "authNodeType": "User",
+                    "id": 6923,
+                    "name": "paulo.alves.master",
+                    "username": "paulo.alves.master",
+                    "userRealName": "Paulo Alves",
+                    "email": "paulo.sanchez.lemos.alves@tecnico.ulisboa.pt"
+                },
+                "repository": {
+                    "aclObjectType": "Repository",
+                    "id": 370407,
+                    "name": "MScPauloAlves",
+                    "label": "MScPauloAlves",
+                    "description": "Atlas Framework",
+                    "owner": {
+                        "authNodeType": "User",
+                        "id": 4,
+                        "name": "admin",
+                        "username": "admin",
+                        "userRealName": "Admin",
+                        "email": "admin@atlas.linkconsulting.com"
+                    },
+                    "workerUrl": "http://localhost:8081/MScPauloAlves/",
+                    "configurations": {
+                        "projectReferences": {
+                            "dataTypeName": "",
+                            "isRelatedByProperty": false,
+                            "creates": {
+                                "property": "",
+                                "relation": ""
+                            },
+                            "deletes": {
+                                "property": "",
+                                "relation": ""
+                            }
+                        },
+                        "blueprintConfigurations": {
+                            "color": {
+                                "alive": "#4FDD4F",
+                                "transition": "#F9D360",
+                                "dead": "#FF3F3F"
+                            },
+                            "font": {
+                                "size": 15
+                            }
+                        },
+                        "dashboardConfigurations": {
+                            "configurations": "repository - Dashboard Configuration"
+                        }
+                    }
+                },
+                "domain": "Business",
+                "icon": "actor-01.png",
+                "metaTypeClass": "Class"
+            },
+            "className": "PermissionABAC"
+        },
+        "properties": [
+            {
+                "name": "Name",
+                "value": "PermissionsSalesABAC"
+            },
+            {
+                "name": "Business Functions",
+                "value": [
+                    {
+                        "name": "Confirm Order Business Function",
+                        "className": "Business Function",
+                        "label": "Confirm Order Business Function",
+                        "id": 454531
+                    },
+                    {
+                        "name": "Create Invoice",
+                        "className": "Business Function",
+                        "label": "Create Invoice",
+                        "id": 454533
+                    },
+                    {
+                        "name": "Send Invoice",
+                        "className": "Business Function",
+                        "label": "Send Invoice",
+                        "id": 454534
+                    },
+                    {
+                        "name": "Get Payment",
+                        "className": "Business Function",
+                        "label": "Get Payment",
+                        "id": 454535
+                    },
+                    {
+                        "name": "Insert Order in Database 'Orders DB'",
+                        "className": "Business Function",
+                        "label": "Insert Order in Database 'Orders DB'",
+                        "id": 454537
+                    }
+                ]
+            },
+            {
+                "name": "Certification",
+                "value": [
+                    {
+                        "name": "Certified Professional Sales Person (CPSP)",
+                        "className": "Certification",
+                        "label": "Certified Professional Sales Person (CPSP)",
+                        "id": 454527
+                    }
+                ]
+            },
+            {
+                "name": "Division",
+                "value": [
+                    {
+                        "name": "Sales Division",
+                        "className": "Division",
+                        "label": "Sales Division",
+                        "id": 454528
+                    }
+                ]
+            }
+        ]
+    }
+]

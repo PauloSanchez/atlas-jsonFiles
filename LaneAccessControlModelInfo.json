@@ -1,0 +1,141 @@
+[
+    {
+        "pk": {
+            "configContainerId": 370407,
+            "objectId": 454282
+        },
+        "configContainer": {
+            "aclObjectType": "Repository",
+            "id": 370407,
+            "name": "MScPauloAlves",
+            "label": "MScPauloAlves",
+            "description": "Atlas Framework",
+            "owner": {
+                "authNodeType": "User",
+                "id": 4,
+                "name": "admin",
+                "username": "admin",
+                "userRealName": "Admin",
+                "email": "admin@atlas.linkconsulting.com"
+            },
+            "workerUrl": "http://localhost:8081/MScPauloAlves/",
+            "configurations": {
+                "projectReferences": {
+                    "dataTypeName": "",
+                    "isRelatedByProperty": false,
+                    "creates": {
+                        "property": "",
+                        "relation": ""
+                    },
+                    "deletes": {
+                        "property": "",
+                        "relation": ""
+                    }
+                },
+                "blueprintConfigurations": {
+                    "color": {
+                        "alive": "#4FDD4F",
+                        "transition": "#F9D360",
+                        "dead": "#FF3F3F"
+                    },
+                    "font": {
+                        "size": 15
+                    }
+                },
+                "dashboardConfigurations": {
+                    "configurations": "repository - Dashboard Configuration"
+                }
+            }
+        },
+        "object": {
+            "aclObjectType": "Object",
+            "id": 454282,
+            "name": "Sales",
+            "label": "Sales",
+            "owner": {
+                "authNodeType": "User",
+                "id": 6923,
+                "name": "paulo.alves.master",
+                "username": "paulo.alves.master",
+                "userRealName": "Paulo Alves",
+                "email": "paulo.sanchez.lemos.alves@tecnico.ulisboa.pt"
+            },
+            "objectClass": {
+                "id": 402479,
+                "name": "Lane (with AccessControlModel)",
+                "label": "Lane (with AccessControlModel)",
+                "owner": {
+                    "authNodeType": "User",
+                    "id": 6923,
+                    "name": "paulo.alves.master",
+                    "username": "paulo.alves.master",
+                    "userRealName": "Paulo Alves",
+                    "email": "paulo.sanchez.lemos.alves@tecnico.ulisboa.pt"
+                },
+                "repository": {
+                    "aclObjectType": "Repository",
+                    "id": 370407,
+                    "name": "MScPauloAlves",
+                    "label": "MScPauloAlves",
+                    "description": "Atlas Framework",
+                    "owner": {
+                        "authNodeType": "User",
+                        "id": 4,
+                        "name": "admin",
+                        "username": "admin",
+                        "userRealName": "Admin",
+                        "email": "admin@atlas.linkconsulting.com"
+                    },
+                    "workerUrl": "http://localhost:8081/MScPauloAlves/",
+                    "configurations": {
+                        "projectReferences": {
+                            "dataTypeName": "",
+                            "isRelatedByProperty": false,
+                            "creates": {
+                                "property": "",
+                                "relation": ""
+                            },
+                            "deletes": {
+                                "property": "",
+                                "relation": ""
+                            }
+                        },
+                        "blueprintConfigurations": {
+                            "color": {
+                                "alive": "#4FDD4F",
+                                "transition": "#F9D360",
+                                "dead": "#FF3F3F"
+                            },
+                            "font": {
+                                "size": 15
+                            }
+                        },
+                        "dashboardConfigurations": {
+                            "configurations": "repository - Dashboard Configuration"
+                        }
+                    }
+                },
+                "icon": "default.png",
+                "metaTypeClass": "Class"
+            },
+            "className": "Lane (with AccessControlModel)"
+        },
+        "properties": [
+            {
+                "name": "Name",
+                "value": "Sales"
+            },
+            {
+                "name": "ABAC",
+                "value": [
+                    {
+                        "name": "SalesABAC",
+                        "className": "ABAC MscPauloMaster",
+                        "label": "SalesABAC",
+                        "id": 454522
+                    }
+                ]
+            }
+        ]
+    }
+]

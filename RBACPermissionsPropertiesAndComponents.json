@@ -1,0 +1,158 @@
+[
+    {
+        "pk": {
+            "configContainerId": 370407,
+            "objectId": 454557
+        },
+        "configContainer": {
+            "aclObjectType": "Repository",
+            "id": 370407,
+            "name": "MScPauloAlves",
+            "label": "MScPauloAlves",
+            "description": "Atlas Framework",
+            "owner": {
+                "authNodeType": "User",
+                "id": 4,
+                "name": "admin",
+                "username": "admin",
+                "userRealName": "Admin",
+                "email": "admin@atlas.linkconsulting.com"
+            },
+            "workerUrl": "http://localhost:8081/MScPauloAlves/",
+            "configurations": {
+                "projectReferences": {
+                    "dataTypeName": "",
+                    "isRelatedByProperty": false,
+                    "creates": {
+                        "property": "",
+                        "relation": ""
+                    },
+                    "deletes": {
+                        "property": "",
+                        "relation": ""
+                    }
+                },
+                "blueprintConfigurations": {
+                    "color": {
+                        "alive": "#4FDD4F",
+                        "transition": "#F9D360",
+                        "dead": "#FF3F3F"
+                    },
+                    "font": {
+                        "size": 15
+                    }
+                },
+                "dashboardConfigurations": {
+                    "configurations": "repository - Dashboard Configuration"
+                }
+            }
+        },
+        "object": {
+            "aclObjectType": "Object",
+            "id": 454557,
+            "name": "ERPSystemPermissions",
+            "label": "ERPSystemPermissions",
+            "owner": {
+                "authNodeType": "User",
+                "id": 6923,
+                "name": "paulo.alves.master",
+                "username": "paulo.alves.master",
+                "userRealName": "Paulo Alves",
+                "email": "paulo.sanchez.lemos.alves@tecnico.ulisboa.pt"
+            },
+            "objectClass": {
+                "id": 402460,
+                "name": "PermissionRBAC",
+                "label": "PermissionRBAC",
+                "owner": {
+                    "authNodeType": "User",
+                    "id": 6923,
+                    "name": "paulo.alves.master",
+                    "username": "paulo.alves.master",
+                    "userRealName": "Paulo Alves",
+                    "email": "paulo.sanchez.lemos.alves@tecnico.ulisboa.pt"
+                },
+                "repository": {
+                    "aclObjectType": "Repository",
+                    "id": 370407,
+                    "name": "MScPauloAlves",
+                    "label": "MScPauloAlves",
+                    "description": "Atlas Framework",
+                    "owner": {
+                        "authNodeType": "User",
+                        "id": 4,
+                        "name": "admin",
+                        "username": "admin",
+                        "userRealName": "Admin",
+                        "email": "admin@atlas.linkconsulting.com"
+                    },
+                    "workerUrl": "http://localhost:8081/MScPauloAlves/",
+                    "configurations": {
+                        "projectReferences": {
+                            "dataTypeName": "",
+                            "isRelatedByProperty": false,
+                            "creates": {
+                                "property": "",
+                                "relation": ""
+                            },
+                            "deletes": {
+                                "property": "",
+                                "relation": ""
+                            }
+                        },
+                        "blueprintConfigurations": {
+                            "color": {
+                                "alive": "#4FDD4F",
+                                "transition": "#F9D360",
+                                "dead": "#FF3F3F"
+                            },
+                            "font": {
+                                "size": 15
+                            }
+                        },
+                        "dashboardConfigurations": {
+                            "configurations": "repository - Dashboard Configuration"
+                        }
+                    }
+                },
+                "domain": "Business",
+                "metaTypeClass": "Class"
+            },
+            "className": "PermissionRBAC"
+        },
+        "properties": [
+            {
+                "name": "Name",
+                "value": "ERPSystemPermissions"
+            },
+            {
+                "name": "Business Functions",
+                "value": [
+                    {
+                        "name": "Check Warehouse Stock",
+                        "className": "Business Function",
+                        "label": "Check Warehouse Stock",
+                        "id": 454539
+                    },
+                    {
+                        "name": "Check Materials with Suppliers",
+                        "className": "Business Function",
+                        "label": "Check Materials with Suppliers",
+                        "id": 454540
+                    }
+                ]
+            },
+            {
+                "name": "Role",
+                "value": [
+                    {
+                        "name": "ERPSystem",
+                        "className": "Business Role",
+                        "label": "ERPSystem",
+                        "id": 454558
+                    }
+                ]
+            }
+        ]
+    }
+]
