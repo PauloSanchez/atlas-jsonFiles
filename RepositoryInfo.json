@@ -2,18 +2,13 @@
     {
         "aclObjectType": "Repository",
         "id": 370407,
-        "name": "MScPauloAlves",
-        "label": "MScPauloAlves",
+        "name": "",
+        "label": "",
         "description": "Atlas Framework",
         "owner": {
-            "authNodeType": "User",
-            "id": 4,
-            "name": "admin",
-            "username": "admin",
-            "userRealName": "Admin",
-            "email": "admin@atlas.linkconsulting.com"
+           
         },
-        "workerUrl": "http://localhost:8081/MScPauloAlves/",
+        "workerUrl": "",
         "configurations": {
             "projectReferences": {
                 "dataTypeName": "",

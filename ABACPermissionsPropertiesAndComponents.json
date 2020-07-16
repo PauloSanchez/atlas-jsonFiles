@@ -1,28 +1,19 @@
 [
+    {
         "object": {
             "aclObjectType": "Object",
             "id": 454525,
             "name": "PermissionsSalesABAC",
             "label": "PermissionsSalesABAC",
             "owner": {
-                "authNodeType": "User",
-                "id": 6923,
-                "name": "",
-                "username": "",
-                "userRealName": "",
-                "email": ""
+
             },
             "objectClass": {
                 "id": 402450,
                 "name": "PermissionABAC",
                 "label": "PermissionABAC",
                 "owner": {
-                    "authNodeType": "User",
-                    "id": 6923,
-                    "name": "",
-                    "username": "",
-                    "userRealName": "",
-                    "email": ""
+    
                 },
                 "repository": {
                     "aclObjectType": "Repository",
@@ -31,12 +22,7 @@
                     "label": "",
                     "description": "Atlas Framework",
                     "owner": {
-                        "authNodeType": "User",
-                        "id": 4,
-                        "name": "admin",
-                        "username": "admin",
-                        "userRealName": "Admin",
-                        "email": ""
+                        
                     },
                     "workerUrl": "",
                     "configurations": {

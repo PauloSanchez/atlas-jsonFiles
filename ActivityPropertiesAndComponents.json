@@ -1,92 +1,30 @@
 [
     {
-        "pk": {
-            "configContainerId": 370407,
-            "objectId": 454520
-        },
-        "configContainer": {
-            "aclObjectType": "Repository",
-            "id": 370407,
-            "name": "MScPauloAlves",
-            "label": "MScPauloAlves",
-            "description": "Atlas Framework",
-            "owner": {
-                "authNodeType": "User",
-                "id": 4,
-                "name": "admin",
-                "username": "admin",
-                "userRealName": "Admin",
-                "email": "admin@atlas.linkconsulting.com"
-            },
-            "workerUrl": "http://localhost:8081/MScPauloAlves/",
-            "configurations": {
-                "projectReferences": {
-                    "dataTypeName": "",
-                    "isRelatedByProperty": false,
-                    "creates": {
-                        "property": "",
-                        "relation": ""
-                    },
-                    "deletes": {
-                        "property": "",
-                        "relation": ""
-                    }
-                },
-                "blueprintConfigurations": {
-                    "color": {
-                        "alive": "#4FDD4F",
-                        "transition": "#F9D360",
-                        "dead": "#FF3F3F"
-                    },
-                    "font": {
-                        "size": 15
-                    }
-                },
-                "dashboardConfigurations": {
-                    "configurations": "repository - Dashboard Configuration"
-                }
-            }
-        },
         "object": {
             "aclObjectType": "Object",
             "id": 454520,
             "name": "Archive Order",
             "label": "Archive Order",
             "owner": {
-                "authNodeType": "User",
-                "id": 6923,
-                "name": "paulo.alves.master",
-                "username": "paulo.alves.master",
-                "userRealName": "Paulo Alves",
-                "email": "paulo.sanchez.lemos.alves@tecnico.ulisboa.pt"
+                
             },
             "objectClass": {
                 "id": 395480,
-                "name": "BPMN Element with B.Functions MscPauloAlves",
-                "label": "BPMN Element with B.Functions MscPauloAlves",
+                "name": "BPMN Element with B.Functions ",
+                "label": "BPMN Element with B.Functions ",
                 "owner": {
-                    "authNodeType": "User",
-                    "id": 6923,
-                    "name": "paulo.alves.master",
-                    "username": "paulo.alves.master",
-                    "userRealName": "Paulo Alves",
-                    "email": "paulo.sanchez.lemos.alves@tecnico.ulisboa.pt"
+                    
                 },
                 "repository": {
                     "aclObjectType": "Repository",
                     "id": 370407,
-                    "name": "MScPauloAlves",
-                    "label": "MScPauloAlves",
+                    "name": "",
+                    "label": "",
                     "description": "Atlas Framework",
                     "owner": {
-                        "authNodeType": "User",
-                        "id": 4,
-                        "name": "admin",
-                        "username": "admin",
-                        "userRealName": "Admin",
-                        "email": "admin@atlas.linkconsulting.com"
+                       
                     },
-                    "workerUrl": "http://localhost:8081/MScPauloAlves/",
+                    "workerUrl": "",
                     "configurations": {
                         "projectReferences": {
                             "dataTypeName": "",
@@ -204,7 +142,7 @@
                     }
                 ]
             },
-            "className": "BPMN Element with B.Functions MscPauloAlves"
+            "className": "BPMN Element with B.Functions "
         },
         "properties": [
             {

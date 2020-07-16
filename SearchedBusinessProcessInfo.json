@@ -4,11 +4,7 @@
         "name": "Order Fulfillment",
         "label": "Order Fulfillment",
         "owner": {
-            "authNodeType": "User",
-            "id": 6923,
-            "name": "",
-            "username": "",
-            "userRealName": ""
+            
         },
         "objectClass": {
             "id": 371634,
@@ -16,28 +12,18 @@
             "label": "Business Process",
             "description": "A business process is defined as a behavior element that groups behavior based on an ordering of activities. It is intended to produce a defined set of products or business services.",
             "owner": {
-                "authNodeType": "User",
-                "id": 4,
-                "name": "admin",
-                "username": "admin",
-                "userRealName": "Admin",
-                "email": "admin@atlas.linkconsulting.com"
+                
             },
             "repository": {
                 "aclObjectType": "Repository",
                 "id": 370407,
-                "name": "MScPauloAlves",
-                "label": "MScPauloAlves",
+                "name": "",
+                "label": "",
                 "description": "Atlas Framework",
                 "owner": {
-                    "authNodeType": "User",
-                    "id": 4,
-                    "name": "admin",
-                    "username": "admin",
-                    "userRealName": "Admin",
-                    "email": "admin@atlas.linkconsulting.com"
+                    
                 },
-                "workerUrl": "http://localhost:8081/MScPauloAlves/",
+                "workerUrl": "",
                 "configurations": {
                     "projectReferences": {
                         "dataTypeName": "",
