@@ -1,6 +1,6 @@
-BusinessProcess
+Business Process
   -Name: Order Fulfillment
-  -Id:      454279
+  -Id:   454279
 
 **********************************************************************ERROR******************************************************************************
 ***************************************************************************************************************************************************************
@@ -14,9 +14,13 @@ BusinessProcess
 Pool:
         -Name:  Seller Organization
         -Id:         454280
-        -Artifacts Owned:
+        Artifacts Owned:
             -Name: Orders DB
             -Id: 454538
+            -Name: Warehouse DB
+            -Id: 454837
+            -Name: Suppliers Catalog
+            -Id: 454839
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
         Lane Name: WarehouseRBAC
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -25,25 +29,24 @@ Pool:
                         -Name: WarehousePermissionRBAC
                         -Id: 454550
                         -Roles:
-                               -Name: WarehouseManager
-                               -Id: 454551
+                               No actors with role: "WarehouseManager"                        
                         -Business Functions:
                               -Name:  Check Warehouse Stock
-                              -Id:         454539
+                              -Id:    454539
                               -Name:  Check Materials with Suppliers
-                              -Id:         454540
+                              -Id:    454540
                               -Name:  Search Product in Warehouse
-                              -Id:         454544
+                              -Id:    454544
                               -Name:  Get Product
-                              -Id:         454545
+                              -Id:    454545
                               -Name:  Request Materials
-                              -Id:         454542
+                              -Id:    454542
                               -Name:  Obtain Materials
-                              -Id:         454543
+                              -Id:    454543
                               -Name:  Create Product
-                              -Id:         454541
+                              -Id:    454541
                               -Name:  Send Product
-                              -Id:         454548
+                              -Id:    454548
 
 =======================================================
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -54,8 +57,7 @@ Pool:
                         -Name: ERPSystemPermissions
                         -Id: 454557
                         -Roles:
-                               -Name: ERPSystem
-                               -Id: 454558
+                               No actors with role: "ERPSystem" 
                         -Business Functions:
                               -Name:  Check Warehouse Stock
                               -Id:         454539
@@ -64,28 +66,30 @@ Pool:
 
 =======================================================
                 Activities:
+
                         -Name: Check Stock Availability
                         -Id: 454498
                         -Artifacts:
-                        -Creates Data Object:
-                        -Uses Data Object:
-                        -Changes Data Base:
-                        -Accesses Data Base:
-                            -Name: Warehouse DB
-                            -Id: 454837
+                            -Creates:
+                            -Uses:
+                            -Changes Data Store:
+                            -Accesses Data Store:
+                                -Name: Warehouse DB
+                                -Id: 454837
                         -Business Functions:
                               -Name:  Check Warehouse Stock
                               -Id:         454539
 
+
                         -Name: Check Raw Materials Availability
                         -Id: 454500
                         -Artifacts:
-                        -Creates Data Object:
-                        -Uses Data Object:
-                        -Changes Data Base:
-                        -Accesses Data Base:
-                            -Name: Suppliers Catalog
-                            -Id: 454839
+                            -Creates:
+                            -Uses:
+                            -Changes Data Store:
+                            -Accesses Data Store:
+                                -Name: Suppliers Catalog
+                                -Id: 454839
                         -Business Functions:
                               -Name:  Check Materials with Suppliers
                               -Id:         454540
@@ -94,66 +98,71 @@ Pool:
         Lane Name: WarehouseWorkerABAC
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
                 Permissions:
-                        There are no Permissions associated to this Lane
+                                There are no Permissions associated to this Lane
 =======================================================
                 Activities:
+
                         -Name: Retrieve Product from Warehouse
                         -Id: 454502
                         -Artifacts:
-                        -Creates Data Object:
-                        -Uses Data Object:
-                        -Changes Data Base:
-                        -Accesses Data Base:
+                            -Creates:
+                            -Uses:
+                            -Changes Data Store:
+                            -Accesses Data Store:
                         -Business Functions:
                               -Name:  Search Product in Warehouse
                               -Id:         454544
                               -Name:  Get Product
                               -Id:         454545
 
+
                         -Name: Request Raw Materials from Supplier
                         -Id: 454504
                         -Artifacts:
-                        -Creates Data Object:
-                        -Uses Data Object:
-                        -Changes Data Base:
-                        -Accesses Data Base:
+                            -Creates:
+                            -Uses:
+                            -Changes Data Store:
+                            -Accesses Data Store:
                         -Business Functions:
                               -Name:  Request Materials
                               -Id:         454542
                               -Name:  Obtain Materials
                               -Id:         454543
 
+
                         -Name: Manufacture Product
                         -Id: 454508
                         -Artifacts:
-                        -Creates Data Object:
-                        -Uses Data Object:
-                        -Changes Data Base:
-                        -Accesses Data Base:
+                            -Creates:
+                            -Uses:
+                            -Changes Data Store:
+                            -Accesses Data Store:
                         -Business Functions:
                               -Name:  Create Product
                               -Id:         454541
 
+
                         -Name: Get Shipping Address
                         -Id: 454512
                         -Artifacts:
-                        -Creates Data Object:
-                        -Uses Data Object:
-                        -Changes Data Base:
-                        -Accesses Data Base:
+                            -Creates:
+                            -Uses:
+                            -Changes Data Store:
+                            -Accesses Data Store:
                         -Business Functions:
                               -Name:  Request Shipping Address
                               -Id:         454546
                               -Name:  Obtain Address
                               -Id:         454547
 
+
                         -Name: Ship Product
                         -Id: 454514
                         -Artifacts:
-                        -Creates Data Object:
-                        -Uses Data Object:
-                        -Changes Data Base:
-                        -Accesses Data Base:
+                            -Creates:
+                            -Uses:
+                            -Changes Data Store:
+                            -Accesses Data Store:
                         -Business Functions:
                               -Name:  Send Product
                               -Id:         454548
@@ -166,11 +175,8 @@ Pool:
                         -Name: PermissionsSalesABAC
                         -Id: 454525
                         -Certifications:
-                               -Name: Certified Professional Sales Person (CPSP)
-                               -Id: 454527
+                                No actors with role: "Certified Professional Sales Person (CPSP)"                        
                         -Divisions:
-                               -Name: Sales Division
-                               -Id: 454528
                         -Emails:
                         -Locations:
                         -Projects:
@@ -191,50 +197,54 @@ Pool:
 
 =======================================================
                 Activities:
+
                         -Name: Confirm Order
                         -Id: 454510
                         -Artifacts:
-                        -Creates Data Object:
-                        -Uses Data Object:
-                        -Changes Data Base:
-                        -Accesses Data Base:
+                            -Creates:
+                            -Uses:
+                            -Changes Data Store:
+                            -Accesses Data Store:
                         -Business Functions:
                               -Name:  Confirm Order Business Function
                               -Id:         454531
 
+
                         -Name: Emit Invoice
                         -Id: 454516
                         -Artifacts:
-                        -Creates Data Object:
-                        -Uses Data Object:
-                        -Changes Data Base:
-                        -Accesses Data Base:
+                            -Creates:
+                            -Uses:
+                            -Changes Data Store:
+                            -Accesses Data Store:
                         -Business Functions:
                               -Name:  Create Invoice
                               -Id:         454533
                               -Name:  Send Invoice
                               -Id:         454534
 
+
                         -Name: Receive Payment
                         -Id: 454518
                         -Artifacts:
-                        -Creates Data Object:
-                        -Uses Data Object:
-                        -Changes Data Base:
-                        -Accesses Data Base:
+                            -Creates:
+                            -Uses:
+                            -Changes Data Store:
+                            -Accesses Data Store:
                         -Business Functions:
                               -Name:  Get Payment
                               -Id:         454535
 
+                              
                         -Name: Archive Order
                         -Id: 454520
                         -Artifacts:
-                        -Creates Data Object:
-                        -Uses Data Object:
-                        -Changes Data Base:
-                            -Name: Orders DB
-                            -Id: 454538
-                        -Accesses Data Base:
+                            -Creates:
+                            -Uses:
+                            -Changes Data Store:
+                                -Name: Orders DB
+                                -Id: 454538
+                            -Accesses Data Store:
                         -Business Functions:
                               -Name:  Insert Order in Database 'Orders DB'
                               -Id:         454537
