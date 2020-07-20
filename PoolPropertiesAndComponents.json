@@ -71,6 +71,18 @@
                         "className": "Artifact",
                         "label": "Orders DB",
                         "id": 454538
+                    },
+                    {
+                        "name": "Warehouse DB",
+                        "className": "Artifact",
+                        "label": "Warehouse DB",
+                        "id": 454837
+                    },
+                    {
+                        "name": "Suppliers Catalog",
+                        "className": "Artifact",
+                        "label": "Suppliers Catalog",
+                        "id": 454839
                     }
                 ]
             },
