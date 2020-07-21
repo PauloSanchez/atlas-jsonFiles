@@ -175,7 +175,7 @@ Pool:
                         -Name: PermissionsSalesABAC
                         -Id: 454525
                         -Certifications:
-                                No actors with role: "Certified Professional Sales Person (CPSP)"                        
+                                No actors with certificate: "Certified Professional Sales Person (CPSP)"                        
                         -Divisions:
                                 Sales Division
                         -Emails:
