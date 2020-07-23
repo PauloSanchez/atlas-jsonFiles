@@ -53,7 +53,7 @@ Pool:
                         -Name: ERPSystemPermissions
                         -Id:   454557
                         -Roles:
-                               No actors with role: "ERPSystem" 
+                               "ERPSystem" 
                         -Business Functions:
                               -Name:  Check Warehouse Stock
                               -Id:    454539
