@@ -6,9 +6,9 @@ Pool:
         -Name:  Seller Organization
         -Id:         454280
         Artifacts Owned:
-			-Name: Orders DB
-			-Id: 454538
-			-Name: Warehouse DB
+	    -Name: Orders DB
+	    -Id: 454538
+	    -Name: Warehouse DB
             -Id:   454837
             -Name: Suppliers Catalog
             -Id:   454839
@@ -66,8 +66,8 @@ Pool:
                         	-Uses:
                         	-Changes Data Store:
                         	-Accesses Data Store:
-								-Name: Warehouse DB
-								-Id: 454837
+					-Name: Warehouse DB
+					-Id: 454837
                         -Business Functions:
                             -Name:  Check Warehouse Stock
                             -Id:    454539
@@ -80,8 +80,8 @@ Pool:
                         	-Uses:
                         	-Changes Data Store:
                         	-Accesses Data Store:
-								-Name: Suppliers Catalog
-								-Id:   454839
+					-Name: Suppliers Catalog
+					-Id:   454839
                         -Business Functions:
                             -Name:  Check Materials with Suppliers
                             -Id:    454540
@@ -150,8 +150,8 @@ Pool:
                         -Artifacts:
                         	-Creates:
                         	-Uses:
-                        	-Changes:
-                        	-Accesses:
+                        	-Changes Data Store:
+                        	-Accesses Data Store:
                         -Business Functions:
                               -Name:  Send Product
                               -Id:         454548
@@ -233,8 +233,8 @@ Pool:
                         	-Creates:
                         	-Uses:
                         	-Changes Data Store:
-								-Name: Orders DB
-								-Id: 454538
+					-Name: Orders DB
+					-Id: 454538
                         	-Accesses Data Store:
                         -Business Functions:
                             -Name:  Insert Order in Database 'Orders DB'
