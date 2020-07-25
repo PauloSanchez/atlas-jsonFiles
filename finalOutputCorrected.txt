@@ -98,8 +98,8 @@ Pool:
                         -Artifacts:
                         	-Creates:
                        		-Uses:
-                        	-Changes:
-                        	-Accesses:
+                        	-Changes Data Store:
+                        	-Accesses Data Store:
                         -Business Functions:
                               -Name:  Search Product in Warehouse
                               -Id:         454544
