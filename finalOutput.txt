@@ -29,7 +29,8 @@ Pool:
                         -Name: WarehousePermissionRBAC
                         -Id:   454550
                         -Roles:
-                            WarehouseManager                        
+                            -Name: WarehouseManager
+                            -Id: 454551                        
                         -Business Functions:
                             -Name:  Search Product in Warehouse
                             -Id:    454544
@@ -53,7 +54,8 @@ Pool:
                         -Name: ERPSystemPermissions
                         -Id:   454557
                         -Roles:
-                               "ERPSystem" 
+                              -Name: ERPSystem
+                              -Id: 454558
                         -Business Functions:
                               -Name:  Check Warehouse Stock
                               -Id:    454539
